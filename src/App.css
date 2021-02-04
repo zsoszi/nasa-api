@@ -1,0 +1,11 @@
+.App{
+margin: 15px;
+}
+img{
+  width: 95%;
+}
+
+.center{
+  display: flex;
+  
+}
