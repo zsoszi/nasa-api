@@ -14,7 +14,7 @@ function App() {
     const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=NIGACatit3gE0fd1XprmFfUBGho3Uzp2Hq7JQLIG`);
     const data = await response.json();
     setNasa(data);
-    console.log(data);
+    console.log(data.url);
   }
 
 

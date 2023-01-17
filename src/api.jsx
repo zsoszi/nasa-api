@@ -1,9 +1,9 @@
 import React from "react";
 
 function Api(props) {
+
 	return (
 		<div>
-			<h1>NASA API</h1>
 			<h3>{props.title}</h3>
 			<div className="center">
 				<div className="fi">
